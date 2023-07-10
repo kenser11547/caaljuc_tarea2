@@ -84,8 +84,8 @@ enlacesiguiente.href = "https://mindef.mil.gt/"
 enlacesiguiente.innerText = "IR A LA PAGINA DE MINDEF"
 console.log(enlacesiguiente)
 /*que muestre los datos al hacer doble click*/
-document.addEventListener('dblclick', (e)=>{
-    console.log(e)
+document.addEventListener('dblclick', (kenser)=>{
+    console.log(kenser)
 })
 
 
