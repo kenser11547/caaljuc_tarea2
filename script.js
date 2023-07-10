@@ -30,13 +30,20 @@ console.log(contenido.children[3].innerText = 'AQUI REALIZE UN CAMBIO PARA UNA P
 /*crear un atributo */
 console.log(enlacepagina.getAttribute('href'))
 /*Establece el valor de un atributo en el elemento indicado.*/
-formulariodatos.setAttribute('action', '#')
+formulariodatos.setAttribute('action', 'www.facebook.com')
 console.log(formulariodatos.getAttribute('action'))
+
 
 let crear = document.querySelectorAll('meta')
 
 for (const crear2 of crear) {
 console.log(crear2.getAttribute('content'))
+}
+
+let linkpagina = document.querySelectorAll('link')
+
+for (const crear3 of linkpagina) {
+console.log(crear3.getAttribute('content'))
 }
 
 formulariodatos.action = "/kenser/kenser.php"
@@ -66,7 +73,7 @@ const textonuevo = document.createElement('h1')
 
 textonuevo.textContent = "ES UN TIPO DE TEXTO CREADO DESDE JAVA"
 textonuevo.classList.add('text-warning', 'fw-semibold')
-
+/*crear un nuevo nodo al final de un elemento padre*/
 contenido.appendChild(tabla)
 contenido.appendChild(textonuevo)
 /*crear la lisyta del contenido de los parrafos*/
