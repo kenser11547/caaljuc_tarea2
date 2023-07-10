@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <title>TAREA NO. 2 Manipulación del DOM</title>
+    <style>
+        /* aqui se diseña el estilo de la pagina*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box; 
+        }
+        /* aqui se diseña y edita los estilos del cuerpo de la pagina*/
+        body {
+            background-image: url(../descarga.png);
+            background-size:cover;
+            background-attachment: fixed;
+        }
+        /* aqui se le agrega y edita al formulario*/
+        form {
+            background-color: rgb(68, 134, 160);
+            width: 400px;
+            padding: 30px;
+            margin: auto;
+            margin-top: 28px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            font-family: 'calibri';
+            color: rgb(1, 1, 1);
+            font-size: 18px ;
+            box-shadow: 30px, 13px, 37px;
+            border: 3px solid; color: 2px black;
+            opacity: 0.80;
+        }
+    </style>
 </head>
 <body>
     <h1 id="tit" class="text-danger">SUBTTE. INF KENSER OMAR CAAL JUC</h1>
@@ -38,9 +68,11 @@
               </form>
             </div>
     </div>
-    <li><i class="fa fa-facebook"></i> <a href="https://www.facebook.com/" target="_blank" ><i class="bi bi-facebook fs-1 text-light"></i> </a>Facebook</li>
-    <li><i class="fa fa-twitter"></i> <a href="https://twitter.com/?lang=es" target="_blank" ><i class="bi bi-twitter fs-1 text-light"></i>  </a>Twitter</li>
-    <li><i class="fa fa-instagram"></i> <a href="https://www.instagram.com/" target="_blank" ><i class="bi bi-instagram fs-1 text-light"></i>  </a>Instagram</li>
-    <script src="scripts.js"></script>
+    <a href="https://www.facebook.com/" target="_blank" >INGRESAR FACEBOOK </a>
+    <br>
+    <a href="https://twitter.com/?lang=es" target="_blank" >TWITTER</a>
+    <br>
+    <a href="https://www.instagram.com/" target="_blank" >INSTAGRAM</a>
+    <script src="script.js"></script>
 </body>
 </html>
