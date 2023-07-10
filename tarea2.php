@@ -63,7 +63,7 @@
                   <label for="password" style="text-align: center;">Contraseña:</label>
                   <input class="controles" type="password" class="form-control" id="password" name="password" placeholder="ingrese su contraseña" required>
                 </div>
-                <a href="../PAGINA PRINCIPAL/PAGINA PRINCIPAL.html"><input class="boton" type="button" name="" value="INGRESAR"> </a><br>
+                <a href="../PAGINA PRINCIPAL/PAGINA PRINCIPAL.html"><input class="boton" id="caal" type="button" name="" value="INGRESAR"> </a><br>
               </form>
             </div>
     </div>
