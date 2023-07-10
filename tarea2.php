@@ -39,7 +39,7 @@
 <body>
     <h1 id="tit" class="text-danger">SUBTTE. INF KENSER OMAR CAAL JUC</h1>
     <h1 id="tit" class="text-danger fw-bold">TAREA NO. 2 "MANIPULACIÓN DEL DOM"</h1>
-    <h1 id="tit" class="text-danger fw-bold">"INGENIERIA DE SOFTWARE"</h1>
+    <h1 id="tit2" class="text-danger fw-bold">"INGENIERIA DE SOFTWARE"</h1>
     <div id="parrafo">
         <p id="parrafo1" class="text-success">La Ingeniería de Software es una de las ramas de las ciencias de la computación que estudia la creación de software confiable y de calidad, basándose en métodos y técnicas de ingeniería, y brindando soporte operacional y de mantenimiento.</p>
         <p id="parrafo2">Ingeniería de software es el estudio de los principios y metodologías para el desarrollo y mantenimiento de sistemas software (Zelkovitz, 1978).</p>
