@@ -37,7 +37,7 @@
 </head>
 <body>
     <h1 id="tit" class="text-danger">SUBTTE. INF KENSER OMAR CAAL JUC</h1>
-    <h1 id="tit" class="text-danger fw-bold">TAREA NO. 2 "MANIPULACIÓN DEL DOM"</h1>
+    <h1 id="tita" class="text-warning fw-bold">TAREA NO. 2 "MANIPULACIÓN DEL DOM"</h1>
     <h1 id="tit2" class="text-danger fw-bold">"INGENIERIA DE SOFTWARE"</h1>
     <div id="parrafo">
         <p id="parrafo1" class="text-success">La Ingeniería de Software es una de las ramas de las ciencias de la computación que estudia la creación de software confiable y de calidad, basándose en métodos y técnicas de ingeniería, y brindando soporte operacional y de mantenimiento.</p>
@@ -46,6 +46,7 @@
         <p id="parrafo4">La ingeniería de software trata del establecimiento de los principios y métodos de la ingeniería a fin de obtener software de modo rentable, que sea fiable y trabaje en máquinas reales (Bauer, 1972).</p>
         <p id="parrafo5">La ingeniería de software es la aplicación de un enfoque sistemático, disciplinado y cuantificable al desarrollo, operación, y mantenimiento del software. </p>
     </div>
+    
     <br>
     <div class="row">
     <div class="col-md-4">
@@ -63,7 +64,7 @@
                   <label for="password" style="text-align: center;">Contraseña:</label>
                   <input class="controles" type="password" class="form-control" id="password" name="password" placeholder="ingrese su contraseña" required>
                 </div>
-                <a href="../PAGINA PRINCIPAL/PAGINA PRINCIPAL.html"><input class="boton" id="caal" type="button" name="" value="INGRESAR"> </a><br>
+                <a href="www.google.com"><input class="boton" id="caal" type="button" name="" value="INGRESAR"> </a><br>
               </form>
             </div>
     </div>
