@@ -21,6 +21,8 @@ console.log(twitter)
 
 
 let contenido = document.getElementById('parrafo')
+let contenido2 = document.getElementById('parrafos')
+console.log(contenido2)
 // HIJOS DE UN LELEMENTO
 console.log(contenido.childNodes)
 console.log(contenido.children[3].innerText = 'AQUI REALIZE UN CAMBIO PARA UNA PRUEBA DE TAREA')
@@ -57,7 +59,7 @@ console.log(contenido.innerText)
 console.log(contenido.innerHTML)
 console.log(contenido.outerHTML)
 /* si se desea reemplazar en contenido html por un formulario*/
-//contenido.innerHTML = "<form></form>"
+contenido2.innerHTML = "<form></form>"
 
 const tabla = document.createElement('table')
 const textonuevo = document.createElement('h1')
