@@ -14,7 +14,6 @@
         }
         /* aqui se diseña y edita los estilos del cuerpo de la pagina*/
         body {
-            background-image: url(../descarga.png);
             background-size:cover;
             background-attachment: fixed;
         }
